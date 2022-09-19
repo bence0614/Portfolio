@@ -1,0 +1,56 @@
+.experience {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.experience-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 30px 25px;
+  margin-top: -60px;
+}
+
+.item {
+  text-align: center;
+  padding-top: 10px;
+}
+
+h4 {
+  text-align: center;
+  font-weight: 700;
+}
+
+
+
+.experience h2{
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.experience p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 40px 0;
+  text-align: center;
+}
+
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+.experience-bx .tagline {
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width:100%;
+  display: inline-block;
+}

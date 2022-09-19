@@ -1,0 +1,45 @@
+.btn-15 {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-left: 18px;
+	position: relative;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+  z-index: 1;
+  text-decoration: none;
+}
+
+#btn-div {
+  margin-left: 90px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.btn-15:after {
+ position: absolute;
+ content: "";
+ width: 0;
+ height: 100%;
+ top: 0;
+ left: 0;
+ z-index: -1;
+  background: #e0e5ec;
+ transition: all 0.3s ease-in-out;
+}
+.btn-15:hover {
+ color: #000;
+}
+.btn-15:hover:after {
+ left: 0;
+ width: 100%;
+}
+.btn-15:active {
+ top: 2px;
+}
+
+.proj-download {
+  justify-content: center;
+}
