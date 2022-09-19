@@ -473,6 +473,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 33.33333%;
 }
 
+@media (max-width: 1000px) { 
+  .project .nav.nav-pills {
+    width: 100%;
+  }
+}
+
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;

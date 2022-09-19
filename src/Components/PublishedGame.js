@@ -29,7 +29,7 @@ const PublishedGame = () => {
 
   return (
     <Row>
-      <Col sm={8} md={6} >
+      <Col sm={8} md={5} >
         <div className="proj-texts">
           <div className="proj-title-text">
             <img src={texts[0].logo} className="proj-logo"></img>{texts[0].title}
@@ -45,7 +45,7 @@ const PublishedGame = () => {
           </div>
         </div>
       </Col>
-      <Col size={12} sm={8} md={6}>
+      <Col sm={10} md={7}>
         <div className="proj-texts">
           <div className="proj-title-text">
             <span className="technologies">Platform</span>
@@ -81,9 +81,9 @@ const PublishedGame = () => {
           </div>
         </div>
       </Col>
-      <Col sm={0} md={2}>
+      <Col sm={0} md={1}>
       </Col>
-      <Col sm={12} md={8}>
+      <Col sm={12} md={10}>
         <div className="video-div">
           <VideoJS />
         </div>
