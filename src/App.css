@@ -477,6 +477,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .project .nav.nav-pills {
     width: 100%;
   }
+ 
 }
 
 .project .nav.nav-pills .nav-link {
@@ -486,12 +487,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #fff;
   width: 100%;
   font-size: 17px;
-  letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
   transition: 0.3s ease-in-out;
   text-align: center;
   z-index: 0;
+}
+
+@media (max-width: 500px) { 
+ 
+  .project .nav.nav-pills .nav-link {
+    font-size: 14px !important;
+    font-weight: 600;
+  }
 }
 
 .project .nav.nav-pills .nav-link::before {

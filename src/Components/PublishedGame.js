@@ -63,7 +63,7 @@ const PublishedGame = () => {
             <span>C#</span>
           </div>
           <div className="proj-title-text">
-            <span className="technologies">Additional Details</span>
+            <span className="technologies">Details</span>
           </div>
           <div className="proj-desc-text-details">
             <span>Menu and shop system</span>
@@ -76,7 +76,7 @@ const PublishedGame = () => {
           </div>
           <div id="btn-div">
             <a className="btn-15" href="https://play.google.com/store/apps/details?id=com.NullPointer.LimitedReality" rel="noreferrer">
-              <span>Check It On Google Play</span>
+              <span>Google Play</span>
             </a>
           </div>
         </div>
