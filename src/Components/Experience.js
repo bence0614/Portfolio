@@ -60,7 +60,7 @@ export const Experience = () => {
                   <h5>MySql</h5>
                 </div>
                 <div className="item">
-                  <h5>Php</h5>
+                  <h5>PHP</h5>
                 </div>
               </Col>
               <Col>

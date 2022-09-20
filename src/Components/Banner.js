@@ -54,13 +54,13 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{"Hi I'm Bence, "}<span className="wrap">{text}</span></h1>
-                  <p>And pursue my passion of game development.</p>
+                  <p>I started to learn game development when I entered the university and I achieved to publish a game right after I got my degree. I got my degree. The only thing that is better then playing games is creating them.</p>
                 </div>
               }
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Header Img"></img>
+            {/*<img src={headerImg} alt="Header Img"></img>*/}
           </Col>
         </Row>
       </Container>
